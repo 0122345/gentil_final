@@ -1,0 +1,55 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden;
+}
+ 
+body {
+     font-family: Arial, sans-serif;
+     background-color: rgb(17, 17, 17);
+     color: white;
+}
+
+h1 {
+     
+     font-size: 32px;
+}
+input {
+   height: 28px;
+   border-radius: 10px;
+   outline: none;
+    
+}
+
+.name {
+     margin: 20px;
+     padding: 8px;
+
+     display: flex;
+     flex-direction: column;
+     width: 220px;
+}
+.msg {
+     display: flex;
+     flex-direction: column;
+     width: 320px;
+     margin: 25px;
+     border-radius: 12px;
+}
+.msg ::placeholder {
+     color:  rgb(5, 153, 245);
+     font-size: larger;
+}
+.msg input {
+     color: #333333;
+}
+
+button {
+     margin-left: 20px;
+     width: 98px;
+     height: 29px;
+     border-radius: 12px;
+     cursor: pointer;
+     background-image: linear-gradient(to right, blue, blueviolet);
+}
